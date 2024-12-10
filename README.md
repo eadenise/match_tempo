@@ -1,10 +1,10 @@
-**Audio Tempo and Beat Matching**
+# Audio Tempo and Beat Matching
 
-**Overview**
+# Overview
 
-This Python project leverages librosa and scipy to analyze audio files, extract rhythmic features, and identify songs with matching tempos and beat consistency. It provides a framework for tempo estimation, beat interval analysis, and clustering based on rhythmic similarity. The results are saved in a CSV file for easy reference and further processing.
+This Python project leverages librosa and scipy to analyse audio files, extract rhythmic features, and identify songs with matching tempos and beat consistency. It provides a framework for tempo estimation, beat interval analysis, and clustering based on rhythmic similarity. The results are saved in a CSV file for easy reference and further processing.
 
-**Features:**
+## Features:
 
 **Audio Analysis:**
 
@@ -14,14 +14,14 @@ Uses multiple methods for tempo estimation to enhance accuracy.
 **Song Matching:**
 
 Compares songs based on their primary tempo, tempo variation, and beat consistency.
-Allows customizable tolerance for matching criteria.
+Allows customisable tolerance for matching criteria.
 
 **Output:**
 
 Matches are logged and saved in a CSV file with detailed information about the comparisons.
 
 
-**Technologies Used**
+## Technologies Used
 
 **Libraries:**
 
@@ -73,7 +73,7 @@ pip install librosa numpy scipy pandas
 Place your MP3 files in a directory (e.g., ./fma_small/fma_small/000).
 The program will recursively process all .mp3 files in the specified directory.
 
-**Usage**
+## Usage
 **Run the Program**
 
 Define your audio directory and optional tolerance:
