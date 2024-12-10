@@ -1,10 +1,12 @@
 **Audio Tempo and Beat Matching**
 
 **Overview**
+
 This Python project leverages librosa and scipy to analyze audio files, extract rhythmic features, and identify songs with matching tempos and beat consistency. It provides a framework for tempo estimation, beat interval analysis, and clustering based on rhythmic similarity. The results are saved in a CSV file for easy reference and further processing.
 
-**Features:
-Audio Analysis:**
+**Features:**
+
+**Audio Analysis:**
 Extracts audio features including tempo, tempo variations, and beat intervals.
 Uses multiple methods for tempo estimation to enhance accuracy.
 **Song Matching:**
